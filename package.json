@@ -1,11 +1,11 @@
 {
-  "name": "dicoding-story-app",
+  "name": "dicoding-story-app-final",
   "version": "1.1.0",
-  "description": "Aplikasi Dicoding Story",
+  "description": "Aplikasi Dicoding Story menggunakan Web API (Final Enhanced Version)",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start-dev": "webpack serve --config webpack.dev.js",
-    "serve": "http-server public -o -c-1"
+    "serve": "http-server dist -o -c-1"
   },
   "keywords": [
     "dicoding",
@@ -15,7 +15,7 @@
     "frontend",
     "expert"
   ],
-  "author": "Daffa Ikhwan Nurfauzan <dapaikhwan@gmail.com>",
+  "author": "Aprido Ilham <aprido233@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-env": "^7.26.9",
