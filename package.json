@@ -5,7 +5,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start-dev": "webpack serve --config webpack.dev.js",
-    "serve": "http-server dist -o -c-1"
+    "serve": "http-server public -o -c-1"
   },
   "keywords": [
     "dicoding",

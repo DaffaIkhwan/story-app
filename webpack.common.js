@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     filename: '[name].[contenthash].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public'),
     clean: true,
     assetModuleFilename: 'assets/[hash][ext][query]',
   },
@@ -39,14 +39,14 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(__dirname, 'src/public/'),
-          to: path.resolve(__dirname, 'dist/'),
+          to: path.resolve(__dirname, 'public/'),  // Changed from 'dist' to 'public'
           globOptions: {
             ignore: ['**/STUDENT.txt'],
           },
         },
         {
           from: path.resolve(__dirname, 'src/scripts/push-handler.js'),
-          to: path.resolve(__dirname, 'dist/push-handler.js'),
+          to: path.resolve(__dirname, 'public/push-handler.js'),  // Changed from 'dist' to 'public'
         }
       ],
     }),

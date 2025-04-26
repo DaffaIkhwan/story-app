@@ -192,7 +192,7 @@ h2 { font-size: 1.6rem; font-weight: var(--font-weight-semibold); }
 h3 { font-size: 1.2rem; font-weight: var(--font-weight-semibold);}
 a { color: var(--primary-color); text-decoration: none; transition: color var(--transition-duration) var(--transition-timing); }
 a:hover { color: var(--primary-color-light); text-decoration: underline; }
-img { max-width: 100%; height: auto; display: block; vertical-align: middle; }
+img { max-width: 100%; height: auto; display: block; }
 
 *:focus:not(:focus-visible) { outline: none; box-shadow: none; }
 *:focus-visible {
